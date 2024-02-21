@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    border: 2px solid grey;
+    margin-bottom: 45px;
+    align-items: stretch;
+    flex-flow: row-reverse;
+
+}
+.container2 {
+    border: 2px solid grey;
+}
+
+p {
+    padding: 5px;
+    background-color: bisque;
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+#four {
+    min-height: 100px;
+    min-width: 400px;
+}
