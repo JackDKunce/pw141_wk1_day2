@@ -1,3 +1,35 @@
+body {
+    font-family: "Roboto", sans-serif;
+    
+}
+
 .nav-cont {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    background-color: black;
+}
+
+h3 {
+    flex-basis: 50%;
+    padding-left: 5%;
+    font-size: xx-large;
+    color: white;
+}
+
+.item {
+    flex-basis: 5%;
+    color: white;
+}
+
+.hero-img {
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column-reverse;
+}
+
+.header {
+    text-align: center;
 }
