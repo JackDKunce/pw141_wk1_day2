@@ -1,9 +1,8 @@
 body {
-    font-family: "Roboto", sans-serif;
-    
+    font-family: "Roboto", sans-serif;    
 }
 
-.nav-cont {
+.cont1 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,18 +17,28 @@ h3 {
     color: white;
 }
 
-.item {
+.item1 {
     flex-basis: 5%;
     color: white;
 }
 
-.hero-img {
-    display: flex;
-    background-color: black;
-    color: white;
-    flex-direction: column-reverse;
+.cont1:nth-child(4) {
+    padding-right: 5px;
+    margin-right: 5px;
 }
 
-.header {
+.cont2 {
+    position: relative;
     text-align: center;
+    color: black;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
 }
